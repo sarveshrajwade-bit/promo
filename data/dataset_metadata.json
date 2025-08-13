@@ -1,0 +1,57 @@
+{
+  "datasets": {
+    "promotions_dataset": {
+      "name": "promotions_dataset",
+      "filename": "promotions_dataset.xlsx",
+      "description": "Synthetic promotions dataset with retail and performance metrics",
+      "tags": [
+        "retail",
+        "promotions",
+        "synthetic",
+        "performance"
+      ],
+      "file_size": 774038,
+      "upload_date": "2025-08-13 04:41:56.624972",
+      "source_path": "data/promotions_dataset.xlsx",
+      "file_type": "xlsx",
+      "rows": 10000,
+      "columns": 12,
+      "column_names": [
+        "sku",
+        "sku_description",
+        "promo_type",
+        "regular_retail",
+        "discount_percent",
+        "promo_retail",
+        "margin_lift",
+        "sales_lift",
+        "volume_lift",
+        "sales_revenue",
+        "margin_dollars",
+        "margin_rate"
+      ],
+      "data_types": {
+        "sku": "object",
+        "sku_description": "object",
+        "promo_type": "object",
+        "regular_retail": "float64",
+        "discount_percent": "float64",
+        "promo_retail": "float64",
+        "margin_lift": "float64",
+        "sales_lift": "float64",
+        "volume_lift": "float64",
+        "sales_revenue": "float64",
+        "margin_dollars": "float64",
+        "margin_rate": "float64"
+      }
+    }
+  },
+  "upload_history": [
+    {
+      "dataset_name": "promotions_dataset",
+      "action": "upload",
+      "timestamp": "2025-08-13 04:41:56.624972",
+      "file_size": 774038
+    }
+  ]
+}
